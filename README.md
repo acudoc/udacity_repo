@@ -5,6 +5,7 @@ This is a repository to gain familiarity with git and Github
 
 - git clone: *bring repo from github to local machine*
 - git add: *add file to repo from local to repo*
+    - git diff --staged *used after `git add` to review changes to code
 - git commit: *add changes of repo to main branch*
 - git push: *send local files to github*
 - git status: *check local files to main github branch*
@@ -15,6 +16,7 @@ This is a repository to gain familiarity with git and Github
 - git pull: *get latest changes from branch*
 - git merge: *branches together*
 - git log: *view log history*
+
 
 ### Git Workflow
 
