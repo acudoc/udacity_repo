@@ -10,10 +10,11 @@ This is a repository to gain familiarity with git and Github
 - git status: *check local files to main github branch*
 - git branch: *see branches*
 - git checkout: *switch to different branch or create new branch*
-    - git checkout -b newbranch *this creates and moves to new branch*
+    - git checkout -b newbranch: *this creates and moves to new branch*
     - git branch -d anybranch: *with -d anybranch will be deleted*
 - git pull: *get latest changes from branch*
 - git merge: *branches together*
+- git log: *view log history*
 
 ### Git Workflow
 
