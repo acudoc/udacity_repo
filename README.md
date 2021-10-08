@@ -8,6 +8,7 @@ This is a repository to gain familiarity with git and Github
 * git commit _add changes of repo to main branch_
 * git push _send local files to github_
 * git status _check local files to main github branch_
+* git branch _see branches_
 * git checkout _switch to different branch or create new branch_
     * git checkout -b newbranch _this creates new branch_
     * git branch -d anybranch _with -d anybranch will be deleted_
