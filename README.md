@@ -8,7 +8,7 @@
 
 
 - [This is a repository to create a cheat sheet of git commands. ](#this-is-a-repository-to-create-a-cheat-sheet-of-git-commands)
-- [Git Overview of Commands](#git-overview-of-commands)
+- [Git Overview of Terms](#git-overview-of-commands)
    * [Basic](#basic)
     - [Use git help [command] if you're stuck](#use-git-help-command-if-youre-stuck)
    * [Create](#create)
