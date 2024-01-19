@@ -6,11 +6,8 @@
 
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
-
-- [This is a repository to create a cheat sheet of git commands. ](#this-is-a-repository-to-create-a-cheat-sheet-of-git-commands)
-- [Git Overview of Terms](#git-overview-of-commands)
-   * [Basic](#basic)
-    - [Use git help [command] if you're stuck](#use-git-help-command-if-youre-stuck)
+- [Git Overview of Terms](#git-overview-of-terms)
+- [Basic Commands ](#basic_commands)
    * [Create](#create)
      - [From existing repo](#from-existing-repo)
      - [From existing files](#from-existing-files)
@@ -26,7 +23,7 @@
 
 <!-- TOC end -->
 
-<!-- TOC --><a name="git-overview-of-commands"></a>
+<!-- TOC --><a name="git-overview-of-terms"></a>
 ## Git Overview of Terms
 - Repository (repo): Represents the container holding the codebase 
 - Commit: Represents a change of data in the local repo.
@@ -44,17 +41,12 @@
 - Staging files: Prepares and organizes for a commit.
     - Add: Adds changes to file or files bringing them to the staging area for the next commit.
     - Commit: Saves changes as a snapshot in the local repo
-To see the complete documentation
-follow [Links to Git Docs](https://git-scm.com/docs)
 
-<!-- TOC --><a name="this-is-a-repository-to-create-a-cheat-sheet-of-git-commands"></a>
-##### Cheat Sheet of git commands. 
+- To see the complete documentation follow [Links to Git Docs](https://git-scm.com/docs)
+- If your in the wild and get stuck use `git help` [command]
 
-
-<!-- TOC --><a name="basic"></a>
-### Basic
-
-If your in the wild and get stuck use `git help[command]` 
+<!-- TOC --><a name="basic_commands"></a>
+### Basic Commands
 
 - `main`      *default level branch*
 - `origin`      *default upstream*
