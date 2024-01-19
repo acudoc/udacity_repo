@@ -1,6 +1,6 @@
 # One More Simple Git Cheatsheet 
 
-## I will add study resources to this document as I prepare to the Github Foundation Certification 
+#### This page will include study resources as I prepare to the Github Foundation Certification in Feburary 
 
 ### Table of Contents
 
