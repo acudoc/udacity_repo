@@ -1,5 +1,7 @@
 # One More Simple Git Cheatsheet 
 
+## I will add study resources to this document as I prepare to the Github Foundation Certification 
+
 ### Table of Contents
 
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
