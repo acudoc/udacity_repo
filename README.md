@@ -11,7 +11,7 @@
    * [Create](#create)
      - [From existing repo](#from-existing-repo)
      - [From existing files](#from-existing-files)
-   * [Publish](#publish)
+   * [Commit](#commit)
     - [Commit only watches changes that have been marked explictly with add](#commit-only-watches-changes-that-have-been-marked-explictly-with-add)
    * [View](#view)
    * [Branches](#branches)
@@ -69,17 +69,21 @@
 ##### From existing files
 
 - `git init`
-- `git add` *add file to repo from local to repo*
+- `git add my file` *add file to repo from local to repo*
+- `git add .` *add all files*
 - `git diff --staged` *used after `git add` to review changes to code*
 
-<!-- TOC --><a name="publish"></a>
-### Publish
+<!-- TOC --><a name="commit"></a>
+### Commit
 
 <!-- TOC --><a name="commit-only-watches-changes-that-have-been-marked-explictly-with-add"></a>
-##### Commit only watches changes that have been marked explictly with add
+##### Watches changes that have been marked explictly with add
 
-- `git commit` *add changes of repo to main branch*
-- `git commit [-a]`  *-a: adds changed files automatically*
+- `git commit -m "Commit Message"` *add changes of repo to main branch*
+- `git commit -a -m "Com Message"`  *-a: automatically stages all tracked modified files before commit*
+- `git commit --amend` *Modifies most recent commit*
+- `git commit -m "Initial Commit" --allow empty` *Creates empty commit to act as placeholder*
+- `git commit -m "Message" --author="name <email@example.com>"` *commit with specific author*
 - `git push` *send local files to github* *(push to origin or remote)*
 
 <!-- TOC --><a name="view"></a>
