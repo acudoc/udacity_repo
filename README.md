@@ -25,20 +25,20 @@
 
 <!-- TOC --><a name="git-overview-of-terms"></a>
 ## Git Overview of Terms
-- Repository (repo): Represents the container holding the codebase 
-- Commit: Represents a change of data in the local repo.
-- Tree: Represents the entire history of a repo.
-- Remote: A version of your project hosted elsewhere, used for exchanging commits.
-- Branches: Divergent paths of developement, allowing isolated changes.
-- Main (formally known as Master): common name for default branch
-- Clone: Creates a complete local copy of a repo, including its history.
-- Checkout: Switches between different branches or commits in your repo.
-- Pull: Downloads changes from remote repo and merges them into your branch
-- Push: Uploads local repo changes to a remote repo.
-- Fetch: Downloads data from remote repo without integrating it into your work
-- Reset: Undoes local changes, with options to unstage or revert commits.
-- Merge: Combines multiple commit histories into one.
-- Staging files: Prepares and organizes for a commit.
+- **Repository** (repo): Represents the container holding the codebase 
+- **Commit**: Represents a change of data in the local repo.
+- **Tree**: Represents the entire history of a repo.
+- **Remote**: A version of your project hosted elsewhere, used for exchanging commits.
+- **Branches**: Divergent paths of developement, allowing isolated changes.
+- **Main** (formally known as Master): common name for default branch
+- **Clone**: Creates a complete local copy of a repo, including its history.
+- **Checkout**: Switches between different branches or commits in your repo.
+- **Pull**: Downloads changes from remote repo and merges them into your branch
+- **Push**: Uploads local repo changes to a remote repo.
+- **Fetch**: Downloads data from remote repo without integrating it into your work
+- **Reset**: Undoes local changes, with options to unstage or revert commits.
+- **Merge**: Combines multiple commit histories into one.
+- **Staging** files: Prepares and organizes for a commit.
     - Add: Adds changes to file or files bringing them to the staging area for the next commit.
     - Commit: Saves changes as a snapshot in the local repo
 
