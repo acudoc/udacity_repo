@@ -99,10 +99,13 @@
 
 <!-- TOC --><a name="branches"></a>
 ### Branches
-
-- `git checkout` *switch to different branch or create new branch*
-- `git checkout -b newbranch` *this creates and moves to new branch*
+- `git branch` *Lists all local branches*
+- `git branch [branch-name]` *creates new branch*
+- `git branch -m [old-name][new-name]` *Rename a branch*
 - `git branch -d anybranch` *with -d anybranch will be deleted*
+- `git branch -a` *Lists both remote and local branches*
+- `git checkout [branch-name]` *switchs to branch-name*
+- `git checkout -b newbranch` *this creates and moves to new branch*
 - `git merge` *branches together*
 
 <!-- TOC --><a name="update"></a>
@@ -141,14 +144,21 @@
 <!-- TOC --><a name="git-workflow"></a>
 #### Git Workflows
 
-#### Simple example
+##### Simple example
 - Create new branch
 - Add new feature and code
 - `add`,`commit`, and `push` changes to the remote
 - Get changes reviewed by team member
 - Delete remote branch
 - Delete local branch
-- Pull new code on the remote master to local machine 
+- Pull new code on the remote master to local machine
+
+##### Common Workflow with commands
+`git checkout -b my-new-branch` <br>
+`# ... make changes to files` <br>
+`git add .`                  <br>
+`git commit -m "my changes"`   <br>
+`git push -u origin my-new-branch` <br>
 
 #### Extra modifications
 - After pull request complete
