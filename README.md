@@ -16,7 +16,7 @@
    * [View](#view)
    * [Branches](#branches)
    * [Update](#update)
-   * [Revert](#revert)
+   * [Remote](#remote)
 - [This describes a new commit that undoes previous commits](#this-describes-a-new-commit-that-undoes-previous-commits)
 * [Useful Tools](#useful-tools)
 + [Git Workflow](#git-workflow)
@@ -114,12 +114,24 @@
 ### Update
 
 - `git pull` *get latest changes from branch*
-- `git fetch` *from def. upstream*
-- `git fetch remote`
+- `git fetch [remote-name]` *Fetch updates withour pulling*
 - `git apply patch.diff`
 
-<!-- TOC --><a name="revert"></a>
-### Revert
+<!-- TOC --><a name="remote"></a>
+### Remote
+
+`# Lists all remote repositories along with their URLs`
+`git remote -v`
+-`git remote add [name] [URL]`
+-`git remote remove [name]`
+-`git remote rename [old-name] [new-name]`
+<br>
+`# Pushes a branch and its commits to the specific remote`
+`git push [remote-name] [branch]`
+<br>
+`# Pull updates from a remote branch`
+`git pull [remote-name] [branch]`
+
 
 <!-- TOC --><a name="this-describes-a-new-commit-that-undoes-previous-commits"></a>
 ##### This describes a new commit that undoes previous commits
