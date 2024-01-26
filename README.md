@@ -23,7 +23,7 @@
 
 <!-- TOC end -->
 
-![Octocat!](/images/cd_octocat.png "Octocat Flair!")
+![Octocat!](/images/cd_octocat_med.png "Octocat Flair!")
 
 <!-- TOC --><a name="git-overview-of-terms"></a>
 ## Git Overview of Terms
