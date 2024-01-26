@@ -51,11 +51,13 @@ Originally this repo started to house basic git commands. Recently I am adding m
 <!-- TOC --><a name="basic_commands"></a>
 ### Basic Commands
 
-- `main`      *default level branch*
-- `origin`      *default upstream*
-- `HEAD`        *current branch*
-- `HEAD^`       *parent of HEAD*
-- `foo..bar`    *from branch `foo` to branch `bar`*
+```sh
+main      # default level branch
+origin    # default upstream
+HEAD      # current branch
+HEAD^     # parent of HEAD
+foo..bar  # from branch foo to branch bar
+```
 
 <!-- TOC --><a name="create"></a>
 ### Create
@@ -169,12 +171,13 @@ Originally this repo started to house basic git commands. Recently I am adding m
 - Pull new code on the remote master to local machine
 
 ##### Common Workflow with commands
-`git checkout -b my-new-branch` <br>
-`# ... make changes to files` <br>
-`git add .`                  <br>
-`git commit -m "my changes"`   <br>
-`git push -u origin my-new-branch` <br>
-
+```
+git checkout -b my-new-branch
+# ... make changes to files 
+git add .   
+git commit -m "my changes"   
+git push -u origin my-new-branch 
+```
 #### Extra modifications
 - After pull request complete
 - `git tag 1.0.1`
