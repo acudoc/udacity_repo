@@ -120,17 +120,17 @@
 <!-- TOC --><a name="remote"></a>
 ### Remote
 
-`# Lists all remote repositories along with their URLs`
-`git remote -v`
--`git remote add [name] [URL]`
--`git remote remove [name]`
--`git remote rename [old-name] [new-name]`
-<br>
-`# Pushes a branch and its commits to the specific remote`
-`git push [remote-name] [branch]`
-<br>
-`# Pull updates from a remote branch`
-`git pull [remote-name] [branch]`
+- `# Lists all remote repositories along with their URLs` <br>
+- `git remote -v`                              <br>
+- `git remote add [name] [URL]`                <br>
+- `git remote remove [name]`                   <br>
+- `git remote rename [old-name] [new-name]`    <br>
+  
+- `# Pushes a branch and its commits to the specific remote` <br>
+- `git push [remote-name] [branch]`                          <br>
+  
+- `#Pull updates from a remote branch`        
+- `git pull [remote-name] [branch]`            
 
 
 <!-- TOC --><a name="this-describes-a-new-commit-that-undoes-previous-commits"></a>
