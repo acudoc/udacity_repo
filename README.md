@@ -23,6 +23,8 @@
 
 <!-- TOC end -->
 
+![Octocat!](/images/cd_octocat.png "Octocat Flair!")
+
 <!-- TOC --><a name="git-overview-of-terms"></a>
 ## Git Overview of Terms
 - **Repository** (repo): Represents the container holding the codebase 
