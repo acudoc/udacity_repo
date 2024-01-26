@@ -1,6 +1,7 @@
 # One More Git Cheatsheet 
 
-#### This page will include study resources as I prepare to the Github Foundation Certification in Feburary 
+#### This document is study resources to prepare for the Github Foundation Certification.
+Originally this repo started to house basic git commands. Recently I am adding my notes as I go through [this course](https://www.exampro.co/github-choose-an-exam) from Andrew Brown of ExamPro.
 
 ### Table of Contents
 
