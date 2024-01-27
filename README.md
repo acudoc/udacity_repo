@@ -51,7 +51,7 @@ Originally this repo started to house basic git commands. Recently I am adding m
 <!-- TOC --><a name="basic_commands"></a>
 ### Basic Commands
 
-```sh
+```python
 main      # default level branch
 origin    # default upstream
 HEAD      # current branch
@@ -171,7 +171,8 @@ foo..bar  # from branch foo to branch bar
 - Pull new code on the remote master to local machine
 
 ##### Common Workflow with commands
-```
+
+```bash
 git checkout -b my-new-branch
 # ... make changes to files 
 git add .   
