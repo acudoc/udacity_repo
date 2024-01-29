@@ -65,83 +65,97 @@ foo..bar  # from branch foo to branch bar
 <!-- TOC --><a name="from-existing-repo"></a>
 ##### From existing repo
 
-- `git clone` *bring repo from existing repo*
-- `git clone ~/old ~/new`
-- `git clone git://..` *from github*
-- `git clone ssh://..`
+```python
+git clone [URL] #bring repo from existing repo
+git clone ~/old ~/new
+git clone --single-branch
+```
 
 <!-- TOC --><a name="from-existing-files"></a>
 ##### From existing files
 
-- `git init`
-- `git add my file` *add file to repo from local to repo*
-- `git add .` *add all files*
-- `git diff --staged` *used after `git add` to review changes to code*
-
+```python
+git init`
+git add my file #add file to repo from local to repo
+git add . #add all files
+git diff --staged #used after `git add` to review changes to code
+```
 <!-- TOC --><a name="commit"></a>
 ### Commit
 
 <!-- TOC --><a name="commit-only-watches-changes-that-have-been-marked-explictly-with-add"></a>
 ##### Watches changes that have been marked explictly with add
 
-- `git commit -m "Commit Message"` *add changes of repo to main branch*
-- `git commit -a -m "Com Message"`  *-a: automatically stages all tracked modified files before commit*
-- `git commit --amend` *Modifies most recent commit*
-- `git commit -m "Initial Commit" --allow empty` *Creates empty commit to act as placeholder*
-- `git commit -m "Message" --author="name <email@example.com>"` *commit with specific author*
-- `git push` *send local files to github* *(push to origin or remote)*
+```python
+git commit -m "Commit Message" # add changes of repo to main branch*
+git commit -a -m "Com Message" # -a: automatically stages all tracked modified files before commit*
+git commit --amend # Modifies most recent commit*
+git commit -m "Initial Commit" --allow empty` # Creates empty commit to act as placeholder*
+git commit -m "Message" --author="name <email@example.com>"` # commit with specific author*
+git push # send local files to remote
+git push -u origin # the -u sets upstream branch
+```
 
 <!-- TOC --><a name="view"></a>
 ### View
 
-- `git status` *check local files to main github branch*
-- `git diff [oldid newid]`
-- `git log [-p] [file|dir]`
-- `git blame file`
-- `git show id` 
-- `git show id:file`
-- `git branch` *see branches*
+```python
+git status # check local files to main github branch
+git diff [oldid newid]
+git log [-p] [file|dir]
+git blame file
+git show id
+git show id:file
+git branch # see branches
+```
 
 <!-- TOC --><a name="branches"></a>
 ### Branches
-- `git branch` *Lists all local branches*
-- `git branch [branch-name]` *creates new branch*
-- `git branch -m [old-name][new-name]` *Rename a branch*
-- `git branch -d anybranch` *with -d anybranch will be deleted*
-- `git branch -a` *Lists both remote and local branches*
-- `git checkout [branch-name]` *switchs to branch-name*
-- `git checkout -b newbranch` *this creates and moves to new branch*
-- `git merge` *branches together*
+```python
+git branch # Lists all local branches
+git branch [branch-name] # creates new branch
+git branch -m [old-name][new-name] # Rename a branch
+git branch -d anybranch # with -d anybranch will be deleted
+git branch -a # Lists both remote and local branches
+git checkout [branch-name] # switchs to branch-name
+git checkout -b newbranch # this creates and moves to new branch
+git merge # branches together
+```
 
 <!-- TOC --><a name="update"></a>
 ### Update
-
-- `git pull` *get latest changes from branch*
-- `git fetch [remote-name]` *Fetch updates withour pulling*
-- `git apply patch.diff`
+```python
+git pull # get latest changes from branch
+git fetch [remote-name] # Fetch updates withour pulling
+git apply patch.diff
+```
 
 <!-- TOC --><a name="remote"></a>
 ### Remote
-
-- `# Lists all remote repositories along with their URLs` <br>
-- `git remote -v`                              <br>
-- `git remote add [name] [URL]`                <br>
-- `git remote remove [name]`                   <br>
-- `git remote rename [old-name] [new-name]`    <br>
+```python
+# Lists all remote repositories along with their URLs
+git remote -v
+git remote add [name] [URL]                
+git remote remove [name]     
+git remote rename [old-name] [new-name]
+```
   
-- `# Pushes a branch and its commits to the specific remote` <br>
-- `git push [remote-name] [branch]`                          <br>
+```pythoh
+# Pushes a branch and its commits to the specific remote
+git push [remote-name] [branch]
   
-- `#Pull updates from a remote branch`        
-- `git pull [remote-name] [branch]`            
+# Pull updates from a remote branch        
+git pull [remote-name] [branch]
+```          
 
 
 <!-- TOC --><a name="this-describes-a-new-commit-that-undoes-previous-commits"></a>
 ##### This describes a new commit that undoes previous commits
-
-- `git reset --hard` *NOT UNDONE, reset to last commit*
-- `git revert branch`
-- `git commit -a --amend` *replaces prev commit*
+```python
+git reset --hard # NOT UNDONE, reset to last commit
+git revert branch
+git commit -a --amend # replaces prev commit
+```
 
 <!-- TOC --><a name="useful-tools"></a>
 ### Useful Tools
@@ -161,16 +175,18 @@ foo..bar  # from branch foo to branch bar
 <!-- TOC --><a name="git-workflow"></a>
 #### Git Workflows
 
-##### Simple example
-- Create new branch
-- Add new feature and code
-- `add`,`commit`, and `push` changes to the remote
-- Get changes reviewed by team member
-- Delete remote branch
-- Delete local branch
-- Pull new code on the remote master to local machine
+>##### Simple Github Workflow Example
+>
+> - Create new branch
+> - Add new feature and code
+> - add, commit, and push changes to the remote
+> - Get changes reviewed by team member
+> - Delete remote branch
+> - Delete local branch
+> - Pull new code on the remote master to local machine
+>
 
-##### Common Workflow with commands
+##### Workflow with commands
 
 ```bash
 git checkout -b my-new-branch
@@ -179,6 +195,7 @@ git add .
 git commit -m "my changes"   
 git push -u origin my-new-branch 
 ```
+
 #### Extra modifications
 - After pull request complete
 - `git tag 1.0.1`
