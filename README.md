@@ -118,6 +118,12 @@ git branch # see branches
 
 <!-- TOC --><a name="branches"></a>
 ### Branches
+Can be created through
+- Issues tab
+- w/ GitHub UI
+- w/ GitHub Desktop
+- In terminal (below)
+  
 ```python
 git branch # Lists all local branches
 git branch [branch-name] # creates new branch
