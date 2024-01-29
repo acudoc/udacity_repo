@@ -65,6 +65,13 @@ foo..bar  # from branch foo to branch bar
 <!-- TOC --><a name="from-existing-repo"></a>
 ##### From existing repo
 
+Three main ways to clone a repo
+- HTTPS
+- SSH
+- Github CLI
+
+It is possible to clone entire repo or a single branch
+
 ```python
 git clone [URL] #bring repo from existing repo
 git clone ~/old ~/new
@@ -87,11 +94,11 @@ git diff --staged #used after `git add` to review changes to code
 ##### Watches changes that have been marked explictly with add
 
 ```python
-git commit -m "Commit Message" # add changes of repo to main branch*
-git commit -a -m "Com Message" # -a: automatically stages all tracked modified files before commit*
-git commit --amend # Modifies most recent commit*
-git commit -m "Initial Commit" --allow empty` # Creates empty commit to act as placeholder*
-git commit -m "Message" --author="name <email@example.com>"` # commit with specific author*
+git commit -m "Commit Message" # add changes of repo to main branch
+git commit -a -m "Com Message" # -a: automatically stages all tracked modified files before commit
+git commit --amend # Modifies most recent commit
+git commit -m "Initial Commit" --allow empty # Creates empty commit to act as placeholder
+git commit -m "Message" --author="name <email@example.com>" # commit with specific author
 git push # send local files to remote
 git push -u origin # the -u sets upstream branch
 ```
