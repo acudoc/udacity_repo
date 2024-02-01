@@ -166,3 +166,5 @@
 - After pull request complete
 - `git tag 1.0.1`
 - `git push --tags`
+
+> The rest of the notes can be found at my other Repo ()
