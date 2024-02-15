@@ -51,12 +51,11 @@ Originally this repo started to house basic git commands. Recently I am adding m
 <!-- TOC --><a name="basic_commands"></a>
 ### Basic Commands
 
-```python
+```bash
 main      # default level branch
 origin    # default upstream
 HEAD      # current branch
 HEAD^     # parent of HEAD
-foo..bar  # from branch foo to branch bar
 ```
 
 <!-- TOC --><a name="create"></a>
