@@ -214,4 +214,4 @@ git push -u origin my-new-branch
 - `git tag 1.0.1`
 - `git push --tags`
 
-> The rest of the notes can be found at my other Repo ()
+> The rest of the notes can be found at my [other Repo](https://github.com/AVhouse/Certification-Study-Notes)
